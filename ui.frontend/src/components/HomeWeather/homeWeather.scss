@@ -1,0 +1,60 @@
+.home-weather {
+    text-align: right;
+    margin-top: 8.4rem;
+
+    /*
+    flex-direction: column;
+    display: flex;
+    text-align: end;
+    margin-right: 40px;
+    font-family: 'Poppins';
+    */
+    &__title {
+        position: absolute;
+        width: 121px;
+        height: 21px;
+        margin-left: 1709px;
+        top: 25px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        
+        text-align: center;
+        
+        /* Secundária */
+        
+        color: #222222;
+    }
+
+    &__wrapper {
+        //display: flex;
+        //justify-content: space-between;
+        //align-items: center;
+
+        &--p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 72px;
+            color: #222222;
+            margin-left: 1730px;
+            margin-top: -140px;
+            width: 77px;
+            height: 72px;
+        }
+        &--img {
+            //margin-left: 1758px;
+            //margin-right: 131.22px;
+            //top: 61.63px;
+            //bottom: 999.8px;
+            width: 30.78px;
+            height: 18.57px;
+
+        }
+    }
+}

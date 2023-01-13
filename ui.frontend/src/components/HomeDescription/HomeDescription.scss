@@ -1,0 +1,52 @@
+.home-description {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: right;
+    text-align: right;
+    color: #222222;
+    margin-top: 8.4rem;
+    //padding-right: 134px;
+    line-height: 1.8rem;
+    width: 100vw;
+    margin-left: -950px;
+    margin-top: 331px;    
+
+    &__section {
+
+        &:first-child {
+            h1 {
+                margin: 0 134px 0 0;
+                color: #C12D18;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 46px;
+            }
+
+            p {
+                margin: 0 134px 0 0;
+            }
+        }
+
+        &--h1 {
+            margin: 0 134px 0 0;
+            color: #C12D18;
+            font-weight: 700;
+            line-height: 5rem;
+            font-size: 4rem;
+        }
+
+        &--p {
+            height: 1.8rem;
+            margin: 0 134px 0 0;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+
+}

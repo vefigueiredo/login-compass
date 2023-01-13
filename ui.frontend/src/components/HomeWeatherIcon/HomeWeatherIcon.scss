@@ -1,0 +1,29 @@
+.home-weather {
+
+    margin: 0;
+    max-width: 300px;
+
+
+    &__img {
+        width: 300px;
+        height: 84px;
+        margin-left: 1160px;
+        margin-top: 19px;
+        
+    }    
+
+    @media only screen and (max-width: 600px) {
+        margin-left: 9px;
+        margin-top: 3px;
+
+        
+        &__img {
+            display: flex;
+            width: 248px;
+            height: 84px;
+            
+        }
+    }
+
+    
+}

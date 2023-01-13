@@ -1,0 +1,75 @@
+.error {
+
+    &__h1 {
+
+        p {
+            width: 298px;
+            height: 101px;
+            margin-top: 439px;
+            margin-left: 811px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 90px;
+            text-align: center;
+            color: #E0E0E0;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+
+    }
+
+    &__p {
+
+        p {
+            width: 310px;
+            height: 31px;
+            margin-top: 11px;
+            margin-left: 805px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #E0E0E0;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+        }        
+
+    }    
+
+    &__button {
+        Button {
+            margin: 5rem 0;
+            max-width: 379px;
+            width: 100%;
+            height: 67px;
+            margin-left: 770px;
+            margin-top: 77px;
+            background: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
+            box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+            border: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            line-height: 1.438rem;
+            color: #ffffff;
+            cursor: pointer;
+
+            &:hover {
+                background: #c13216;
+                border: #c13216;
+            }
+
+            &:active {
+                transform: translateY(1px);
+            }
+        }
+    }    
+
+}

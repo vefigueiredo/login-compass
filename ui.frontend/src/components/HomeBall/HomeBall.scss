@@ -1,0 +1,41 @@
+.home-figure-ball {
+
+    margin: 0;
+
+    &__img--mobile {
+        display: none;
+    }
+
+    &__img {
+        position: absolute;
+        max-width: 678px;
+        max-height: 682px;
+        width: 678px;
+        height: 622px;
+        top: 359px;
+        left: -66px;
+        
+
+    }    
+
+    @media only screen and (max-width: 600px) {
+        margin-right: 9px;
+        margin-top: 3px;
+
+        &__img {
+            display: none;
+        }
+        
+        &__img--mobile {
+            
+            display: flex;
+            width: 447px;
+            height: 412px;
+            margin-left: -295px;
+            margin-top: 160px;
+                      
+        }
+    }
+
+    
+}

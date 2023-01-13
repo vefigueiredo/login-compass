@@ -1,0 +1,29 @@
+.img {
+
+    position: absolute;
+    width: 910px;
+    height: 960px;
+    left: 960px;
+    top: 0px;
+
+    img {
+
+        width: 910px;
+        height: 965px;
+
+    }
+
+    
+
+    //background-image: url('/content/dam/vue/ImageLogin.png');
+    //background-size: cover;
+
+
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+
+
+
+
+}

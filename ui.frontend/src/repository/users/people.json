@@ -1,0 +1,19 @@
+{
+    "logins": [
+      {
+        "login": "thauany.martins",
+        "password": 12041999,
+        "local": "-28.264978335353234, -52.412004631674485"
+      },
+      {
+        "login": "vinicius.figueiredo",
+        "password": 12345678,
+        "local": "-28.9712132207349, -52.00882991155071"
+      },
+      {
+        "login": "admin",
+        "password": "admin",
+        "local": "-28.9712132207349, -52.00882991155071"
+      }
+    ]
+  }
